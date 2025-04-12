@@ -1,0 +1,66 @@
+{
+    "categories": [
+      { "id": "science", "name": "Science Faculty" },
+      { "id": "management", "name": "Management Faculty" },
+      { "id": "humanities", "name": "Humanities Faculty" },
+      { "id": "grade12", "name": "Grade 12" },
+      { "id": "semester1", "name": "Semester 1" }
+    ],
+    "subjects": {
+      "science": [
+        { "id": "physics", "name": "Physics" },
+        { "id": "chemistry", "name": "Chemistry" },
+        { "id": "biology", "name": "Biology" }
+      ],
+      "management": [
+        { "id": "accounting", "name": "Accounting" },
+        { "id": "economics", "name": "Economics" }
+      ],
+      "humanities": [
+        { "id": "sociology", "name": "Sociology" },
+        { "id": "history", "name": "History" }
+      ],
+      "grade12": [
+        { "id": "math", "name": "Mathematics" },
+        { "id": "english", "name": "English" }
+      ],
+      "semester1": [
+        { "id": "cs", "name": "Computer Science" },
+        { "id": "stats", "name": "Statistics" }
+      ]
+    },
+    "notesData": {
+      "physics": [
+        { "id": 1, "title": "Motion", "description": "Chapter 1 Notes for Grade 12." },
+        { "id": 2, "title": "Laws of Motion", "description": "Newton's Laws explained." }
+      ],
+      "chemistry": [
+        { "id": 3, "title": "Atomic Structure", "description": "Introduction to atoms." }
+      ],
+      "math": [
+        { "id": 4, "title": "Calculus", "description": "Limits and Differentiation." }
+      ],
+      "cs": [
+        { "id": 5, "title": "Programming Basics", "description": "Introduction to Python." }
+      ]
+    },
+    "noteSections": [
+      { "id": "chapters", "name": "Chapters" },
+      { "id": "syllabus", "name": "Syllabus" },
+      { "id": "questionBanks", "name": "Question Banks" },
+      { "id": "questions", "name": "Questions" },
+      { "id": "textBook", "name": "Text Book" },
+      { "id": "practical", "name": "Practical" },
+      { "id": "viva", "name": "Viva" }
+    ],
+    "sectionContent": {
+      "chapters": "Content for Chapters section.",
+      "syllabus": "Content for Syllabus section.",
+      "questionBanks": "Content for Question Banks section.",
+      "questions": "Content for Questions section.",
+      "textBook": "Content for Text Book section.",
+      "practical": "Content for Practical section.",
+      "viva": "Content for Viva section."
+    }
+  }
+  

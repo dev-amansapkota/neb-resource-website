@@ -4,15 +4,45 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
+.animate-gradient-border {
+ 
+  background-size: 200% 200%;
+  animation: gradientBorderAnimation 3s ease infinite;
+  border-radius: 15px;
+  border: 4px solid transparent;
+  background-clip: border-box;
+  padding: 10px;
+}
+
+@keyframes gradient-rotate {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+.animate-gradient-rotate {
+animation: gradient-rotate 10s linear infinite;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f9f9f9;
+    --foreground: #000000;
   }
 }
+.remove-bg {
+  background: none; 
+}
+
 
 body {
   color: var(--foreground);
