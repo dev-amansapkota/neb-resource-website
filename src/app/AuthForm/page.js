@@ -40,8 +40,8 @@ const AuthForm = () => {
       setMessage(data.message);
 
       if (data.status === "success") {
-        localStorage.setItem("user", JSON.stringify(data.user));  // Store user details in localStorage
-        router.push("/profile"); // Redirect to profile page after login
+        localStorage.setItem("user", JSON.stringify(data.user));  
+        router.push("/profile");
       }
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
